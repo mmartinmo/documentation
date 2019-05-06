@@ -17,9 +17,10 @@
 ![COBI.Bike picture](images/cobi_image.jpg)
 
 * Available: 3x E-Bikes with COBI.Bike unit and smartphones in HackMC area
+* Contact person: _coming soon_
 
-COBI.js interfaces: https://cobi-bike.github.io/COBI.js/
-Chrome Simulator: https://chrome.google.com/webstore/detail/cobibike-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno 
+* COBI.js interfaces: https://cobi-bike.github.io/COBI.js/
+* Chrome Simulator: https://chrome.google.com/webstore/detail/cobibike-devkit-simulator/hpdhkapigojggienmiejhblkhenjdbno 
 
 #### Which data is available?
 
@@ -43,12 +44,14 @@ The COBI.Bike app and Hub: https://cobi.bike/product
 * Developers can subscribe to the streams of data they wish to access
 
 
+
 ### Eclipse Kuksa RC Rovers
 
 ![Eclipse Kuksa](images/eclipse_KUKSA.png)
 ![Rover](images/eclipse_kuksa_rover.png)
 
 * Available: 3x Rovers in HackMC area
+* Contact person: _coming soon_
 
 #### Which data is available?
 
@@ -87,9 +90,11 @@ Programmable dongle to access vehicle diagnosis port.
 Currently we work on integrating authorization flows into Eclipse Kuksa
 
 
+
 ### EV Challenge Jaguar I-PACE
 
-* Available: 1x in front of building
+* Available: 1x Jaguar I-PACE in front of building
+* Contact person: _coming soon_
 
 CAN Bus data available over HTTP
 
@@ -98,6 +103,7 @@ _more information coming soon_
 ### Anki Overdrive
 
 * Available: 1x Track in the HackMC area with 4 cars
+* Contact person: Pedro Silva
 
 _more information coming soon_
 
@@ -133,11 +139,14 @@ Devices are typically connected to the Bosch IoT Hub, which pushed data to Bosch
 
 [Book your free plan](https://accounts.bosch-iot-suite.com/subscriptions/)
 
+Find our Hack Coaches on the Marketplace on the 2nd floor.
 
 
 ### Here.com Telematics API
 
 TBD: Logo, Description
+
+* Contact person: _coming soon_
 
 https://developer.here.com/documentation/fleet-telematics/dev_guide/topics/use-cases.html
 
@@ -195,3 +204,11 @@ TBD
 ### Red Hat
 
 TBD
+
+
+### Mathworks
+
+Get a Matlab license for the hackathon and get support from the Hack Coaches.
+
+TBD
+
