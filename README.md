@@ -198,8 +198,47 @@ Password provided by Hack Coach
 
 
 ### TIBCO
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/TIBCOSoftware/flogo/raw/master/images/projectflogo.png">
+</p> 
+Project Flogo is a go-based open source ecosystem for building event-driven apps and has the notion of triggers and actions to process any incoming event.
+<p align="center">
+  <img  src="https://github.com/TIBCOSoftware/flogo/raw/master/images/eventhandlers.png">
+</p>
 
-TBD
+#### When to use Flogo?
+If you’re dev & sick of building all the messy stuff that comes along with coding production apps, such as connectivity to event-driven messaging platforms, datastores, SaaS apps, etc & want to deploy to a wide range of targets, such as
+
+* serverless compute
+* IoT edge devices
+* containers
+
+then Project Flogo is for you!
+
+#### How to access data? 
+You can use one of our triggers to receive data. Examples triggers are:
+* Kafka, MQTT, CoAP, REST, GraphQL, AWS Lambda, Timer, AMQP ...and many others
+
+You can use one of our actions to process or send data back. Examples activities are: 
+* Log, MQTT, Kafka, AMQP, Trello, Write to File, Pushbullet, Tensorflow, IFTTT, AWS S3, RasPi GPIO
+
+...and you can contribute in the development of new triggers and activities as well.
+
+#### How to get Project Flogo?
+Project Flogo can be downloaded from github and more details can be found here 
+https://github.com/tibcosoftware/flogo
+
+A Web UI to develop with a zero-code approach is available via Docker (highly recommended for the Hackathon):
+https://hub.docker.com/r/flogo/flogo-docker
+
+You can run Flogo on your laptop, on a edge device like a RasPi, on a container like OpenShift or even on AWS Lambda 
+
+The Flogo Web UI comes along with all required components to begin developing, testing and building deployable artifacts from your web browser.
+
+![](https://github.com/TIBCOSoftware/flogo/blob/master/images/flogo-web2.gif)
+
+Find our Hack Coaches on the Marketplace on the 2nd floor. We show you how to connect to the Bosch IoT Hub, receive device messages and build something cool!
+
 
 ### Red Hat
 
