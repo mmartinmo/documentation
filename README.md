@@ -222,7 +222,18 @@ You can use one of our triggers to receive data. Examples triggers are:
 You can use one of our actions to process or send data back. Examples activities are: 
 * Log, MQTT, Kafka, AMQP, Trello, Write to File, Pushbullet, Tensorflow, IFTTT, AWS S3, RasPi GPIO
 
+We have selected some of the triggers and activities to participate in the Bosch Mobility Hackathon:
+* Send MQTT data: https://github.com/ayh20/flogo-components/tree/master/activity/mqtt
+* Send AMQP data: https://github.com/skothari-tibco/amqp10/activity
+* Recieve AMQP data: https://github.com/skothari-tibco/amqp10/trigger
+* Recieve MQTT data: https://github.com/ayh20/flogo-components/tree/master/trigger/mqtt
+
 ...and you can contribute in the development of new triggers and activities as well.
+
+Have also a look to our showcases with many more triggers, activities and apps
+
+* https://tibcosoftware.github.io/flogo/showcases/
+* https://tibcosoftware.github.io/tci-awesome/
 
 #### How to get Project Flogo?
 Project Flogo can be downloaded from github and more details can be found here 
@@ -238,6 +249,22 @@ The Flogo Web UI comes along with all required components to begin developing, t
 ![](https://github.com/TIBCOSoftware/flogo/blob/master/images/flogo-web2.gif)
 
 Find our Hack Coaches on the Marketplace on the 2nd floor. We show you how to connect to the Bosch IoT Hub, receive device messages and build something cool!
+
+#### Ideas
+Wouldn’t it be great to predict when an anomaly is around the corner and alert promptly that condition? By having the availability of a eBike or a RC rover, many sensors that equip those devices are sending data to the Bosch IoT Hub. These data can be used against a Machine Learning Model to detect and raise particular conditions.
+
+##### Intelligent Bike Crash detection
+Normally a bike has mostly two states, someone is riding the bike or the bike is stationary on its side stand. When the bike is being ridden, it has a velocity, is experiencing 3 dimensional GForces and is “mostly” in a vertical orientation but never horizontal. The bike may not be moving, but still the position is essentially vertical. But what has happened if suddenly the acceleration is negative, the Gforces are excessive and the position is horizontal? It almost certainly indicative that a crash happened. Under these circumstances, a notification can be sent immediately to the Fleet Manager who may want to call you and ask if assistance is needed.
+All this can be achieved with an event-driven application. This is where Flogo is your friend! Connect to the Bosch IoT Hub with a Flogo event trigger, process incoming sensor data from the eBike and evaluate the data against a Tensorflow-based Machine Learning model to detect various anomalies.
+
+##### Good driver against bad driver (and get some points)
+Good driving behaviour is key to getting bonus user points or a discount for the next eBike rental! But how do you identify a good versus a bad driver? An eBike has many sensors, sending data like acceleration, speed, position, inclination. What if the acceleration, the speed and the angle of inclination of the bike can be used to determine driving behaviour? If there are frequent accelerations/decelerations and the angle often changes, that could identify a bad driver. In that case, a message is sent back to the Bosch IoT Hub for further processing.
+
+##### Bike theft detector
+eBike doesn’t want their money makers to just wander off and never be scene again. How do you discern between a valid rental and theft?  Can the acceleration, speed, position, and inclination be used to detect if a bike has been put in a truck?
+
+##### Are my sensors working?
+Nowadays all vehicles are fitted with multiple sensors. They’re used to get feedback of the position, inclination, speed, g-forces, temperatures, etc. But what if a sensor is malfunctioning? If a sensor used to send a reading each 2 seconds and suddenly that reading doesn’t come or the intervall isn’t regular, we may conclude that the sensor has failed or will fail in the near future. By deciding which sensors are the most critical ones, we could monitor if the reading are arriving when expected and eventually raise an alert in order to proceed and replace the faulty sensor.
 
 
 ### Red Hat
