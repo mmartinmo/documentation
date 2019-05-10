@@ -46,6 +46,7 @@
            * [Are my sensors working?](#are-my-sensors-working)
      * [Red Hat](#red-hat)
      * [Mathworks](#mathworks)
+     * [Streamr](#streamr)
 
 
 ## Available hardware
@@ -317,4 +318,19 @@ TBD
 Get a Matlab license for the hackathon and get support from the Hack Coaches.
 
 TBD
+
+### Streamr 
+
+A real-time data messaging protocol for the decentralised web. 
+
+Streamr is building the open source infrastructure that will power the world’s data economy. We believe that creating a decentralized Network and the world’s leading Marketplace to trade, swap and share the world’s information will benefit everyone. People will regain control of the data they produce. Companies will be able to better build, market and monetise their products in the Internet of Things (IoT). And society as a whole will be better off when the value in data is not concentrated in the hands of a few giant companies but distributed amongst everyone who creates it. 
+
+#### Technology stack
+
+##### Streamr Network //TODO Add logo
+* Decentralized P2P network for live data delivery
+* Open ecosystem
+##### Streamr Marketplace
+* Data monetisation layer for live data from connected vehicles, smart city, consumer devices
+##### Streamr Editor
 
