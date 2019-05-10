@@ -8,6 +8,46 @@
 ![HackMC Area](images/hack_mc_area_plan.png)
 
 
+## Table of Contents
+
+  * [Available hardware](#available-hardware)
+     * [E-Bikes with COBI.Bike](#e-bikes-with-cobibike)
+        * [Which data is available?](#which-data-is-available)
+        * [How to access data?](#how-to-access-data)
+        * [How to interact with the device or the system?](#how-to-interact-with-the-device-or-the-system)
+        * [What events are available?](#what-events-are-available)
+     * [Eclipse Kuksa RC Rovers](#eclipse-kuksa-rc-rovers)
+        * [Which data is available?](#which-data-is-available-1)
+        * [How to access data?](#how-to-access-data-1)
+        * [How to interact with the device or the system?](#how-to-interact-with-the-device-or-the-system-1)
+        * [What events are available?](#what-events-are-available-1)
+        * [Useful links](#useful-links)
+     * [EV Challenge Jaguar I-PACE](#ev-challenge-jaguar-i-pace)
+     * [Anki Overdrive](#anki-overdrive)
+     * [Audi e-Tron brake data](#audi-e-tron-brake-data)
+  * [Available software services](#available-software-services)
+     * [Bosch IoT Suite](#bosch-iot-suite)
+     * [Here.com Telematics API](#herecom-telematics-api)
+     * [Axel Springer: Clever Tanken API](#axel-springer-clever-tanken-api)
+        * [Which data is available?](#which-data-is-available-2)
+        * [How to access data?](#how-to-access-data-2)
+        * [Ideas](#ideas)
+     * [Axel Springer: upday API](#axel-springer-upday-api)
+        * [Which data is available?](#which-data-is-available-3)
+        * [How to access data?](#how-to-access-data-3)
+     * [TIBCO](#tibco)
+        * [When to use Flogo?](#when-to-use-flogo)
+        * [How to access data?](#how-to-access-data-4)
+        * [How to get Project Flogo?](#how-to-get-project-flogo)
+        * [Ideas](#ideas-1)
+           * [Intelligent Bike Crash detection](#intelligent-bike-crash-detection)
+           * [Good driver against bad driver (and get some points)](#good-driver-against-bad-driver-and-get-some-points)
+           * [Bike theft detector](#bike-theft-detector)
+           * [Are my sensors working?](#are-my-sensors-working)
+     * [Red Hat](#red-hat)
+     * [Mathworks](#mathworks)
+
+
 ## Available hardware
 
 ### E-Bikes with COBI.Bike
