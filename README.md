@@ -47,6 +47,12 @@
      * [Red Hat](#red-hat)
      * [Mathworks](#mathworks)
      * [Streamr](#streamr)
+        * [About Streamr](#about-streamr)
+        * [Technology stack](#technology-stack)
+           * [Streamr Network](#streamr-network)
+           * [Streamr Marketplace](#streamr-marketplace)
+           * [Streamr Editor](#streamr-editor)
+           
 
 
 ## Available hardware
@@ -320,6 +326,9 @@ Get a Matlab license for the hackathon and get support from the Hack Coaches.
 TBD
 
 ### Streamr 
+![](https://bosch-connected-world.com/wp-content/uploads/Streamr-300x147.png)
+
+#### About Streamr
 
 A real-time data messaging protocol for the decentralised web. 
 
@@ -327,10 +336,27 @@ Streamr is building the open source infrastructure that will power the world’s
 
 #### Technology stack
 
-##### Streamr Network //TODO Add logo
+##### Streamr Network
 * Decentralized P2P network for live data delivery
+* Publisher-Subscriber model
 * Open ecosystem
 ##### Streamr Marketplace
-* Data monetisation layer for live data from connected vehicles, smart city, consumer devices
+Data monetisation layer for live data from connected vehicles, smart city, consumer devices
+* You can create an eco-system of 
+ * data sellers providing raw data
+ * companies extracting higher level information from raw data and reselling it
+ * refined data consumers
 ##### Streamr Editor
+Drag and drop tool for quick data stream visualisations and analysis (charts, maps, code blocks..)
+Functiallity to call smart contracts and execute ethereum transactions based on incoming data
+
+https://marketplace.streamr.com
+
+https://www.streamr.com
+
+https://www.streamr.com/help/api
+
+https://streamr.dev (unofficial community managed tutotials)
+
+In case of any questions find Martin at Trusted IoT Alliance stand.
 
